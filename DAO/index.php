@@ -25,9 +25,14 @@ $usuario->loadById(7);
 
 $usuario->update("professor","%$&@*");
 
-echo $usuario;*/
+echo $usuario;
 
 $usuarios = new Usuario();
 $usuarios->loadById(7);
 $usuarios->update('professor', '!@#!@$');
-echo $usuarios;
+echo $usuarios;*/
+
+$dele = new Usuario();
+$dele->loadById(7);
+$dele->delete();
+echo $dele;
