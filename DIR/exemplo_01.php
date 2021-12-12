@@ -6,5 +6,5 @@ if (!is_dir($name)){
     echo "Diretório criado com sucesso!";
 }else{
     rmdir($name);
-    echo "Diretório já existente";
+    echo "Já existe o diretório: $name foi removido";
 }
