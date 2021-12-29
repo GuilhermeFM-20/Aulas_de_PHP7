@@ -1,0 +1,20 @@
+{
+    "name": "hexer17/composer",
+    "description": "Aula de PHP7",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hexer17\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme Freire",
+            "email": "guigui.com478@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require":{
+        "monolog/monolog":"1.0.*"
+    }
+}
